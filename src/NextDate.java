@@ -3,7 +3,8 @@ package src;
 public class NextDate {
   
   public static String getNextDate(int day, int month, int year) throws IllegalArgumentException {
-
+    
+    // Check user input correct boundary domains
     if (year < 1812 || year > 2212) {
       throw new IllegalArgumentException("Invalid year: " + year + ". Year must be between 1812 and 2212.");
     }
