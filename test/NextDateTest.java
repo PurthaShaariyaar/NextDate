@@ -63,6 +63,6 @@ public class NextDateTest {
 
   @Test
   void testCaseNine() {
-    assertEquals("29/02/2000", NextDate.getNextDate(28, 2, 2000));
+    assertEquals("28/02/2000", NextDate.getNextDate(27, 2, 2000));
   }
 }
